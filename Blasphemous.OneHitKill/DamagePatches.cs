@@ -4,7 +4,7 @@ using HarmonyLib;
 
 namespace OneHitKO
 {
-    [HarmonyPatch(typeof(PenitentDamageArea), "TakeDamage")]
+    [HarmonyPatch(typeof(PenitentDamageArea), nameof(PenitentDamageArea.TakeDamage))]
     public class DamageArea_Patch
     {
         public static void Prefix(ref Hit hit)
