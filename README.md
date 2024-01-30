@@ -1,3 +1,3 @@
 # Blasphemous One Hit KO
 
-Download this mod through the mod installer
+Pretty self explanatory, it makes everything kill you in one hit
