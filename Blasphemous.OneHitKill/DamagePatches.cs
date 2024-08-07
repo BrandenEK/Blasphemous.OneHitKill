@@ -5,7 +5,7 @@ using HarmonyLib;
 namespace Blasphemous.OneHitKill;
 
 /// <summary>
-/// When taking damage, just the value really high
+/// When taking damage, just set the value really high
 /// </summary>
 [HarmonyPatch(typeof(PenitentDamageArea), nameof(PenitentDamageArea.TakeDamage))]
 class DamageArea_Patch
