@@ -1,10 +1,10 @@
 # Blasphemous One Hit Kill
 
-<img src="https://img.shields.io/github/downloads/BrandenEK/Blasphemous.OneHitKill/total?color=6495ED&style=for-the-badge">
+<img src="https://img.shields.io/github/downloads/BrandenEK/Blasphemous.OneHitKill/total?color=39B7C6&style=for-the-badge">
 
 ---
 
-## Usage
+## Features
 - Pretty self explanatory, it makes everything kill you in one hit
 
 ## Installation
