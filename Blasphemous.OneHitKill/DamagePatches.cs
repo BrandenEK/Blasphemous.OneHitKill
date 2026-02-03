@@ -8,10 +8,10 @@ namespace Blasphemous.OneHitKill;
 /// When taking damage, just set the value really high
 /// </summary>
 [HarmonyPatch(typeof(PenitentDamageArea), nameof(PenitentDamageArea.TakeDamage))]
-class DamageArea_Patch
+class PenitentDamageArea_TakeDamage_Patch
 {
     public static void Prefix(ref Hit hit)
     {
-        hit.DamageAmount = 1000;
+        hit.DamageAmount = 999_999;
     }
 }
